@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgba(5, 2, 36, 0.884);
+  color: white;
+}
+
+.posts-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  margin: 40px auto;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.photo {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.head-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1.01rem;
+  margin-right: 5px;
+  text-transform: capitalize;
+}
+
+.nick,
+.date {
+  opacity: 80%;
+  margin-right: 5px;
+}
+
+.icon-img {
+  width: 20px;
+}
+
+.icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  opacity: 0.6;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: row;
+}
+.counter {
+  margin-left: 5px;
+}
+
+.post-input {
+  background-color: rgb(219, 208, 208);
+}
+
+.MuiFilledInput-input{
+  height: 20px;
+  padding: 10px 12px;
+
+}
+
+#demo-simple-select-required {
+  width: 190px;
+  height: 20px;
+  padding: 10px 12px;
+  background-color: rgb(219, 208, 208);
+  color: rgb(219, 208, 208);
+}
+
+#demo-simple-select-required-label {
+  color: whitesmoke;
+}
